@@ -1,0 +1,82 @@
+body {
+    font: normal 18pt Arial;
+    background:  rgba(5, 5, 56, 0.557);
+}
+input {
+    font: normal 18pt Arial;
+    width: 100px;
+}
+div#res {
+    margin-top: 20px;
+}
+div#resto {
+    margin-top: 20px;
+}
+div#vezes {
+    margin-top: 20px;
+}
+div#divisao {
+    margin-top: 20px;
+}
+div#mode {
+    margin-top: 20px;
+}
+div#potencia {
+    margin-top: 20px;
+}
+div#envio {
+    margin-top: 20px;
+}
+.titulo {
+    font:normal 30pt serif;
+    text-align: center;
+}
+.section {
+    text-align: center;
+    background: rgba(47, 0, 255, 0.37);
+    border-radius: 25px;
+    width: 500px;
+    margin: auto;
+
+}
+.section__titulo {
+    font:normal 20pt serif;
+    color: white;
+}
+.numero {
+    font:normal 20pt serif;
+    border-radius: 25px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.522);
+
+}
+.botao {
+    border-radius: 25px;
+    width: 150px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.522);
+}
+.descrition {
+    font:normal 10pt serif;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.522);
+}
+.texto {
+    font:normal 15pt serif;
+    border-radius: 25px;
+    width: 150px;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.522);
+    height: 30px;
+
+}
+.enviar {
+    border-radius: 25px;
+    width: 80px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.522);
+    font-size: 15pt;
+}
+.footer {
+    text-align: center;
+    font: normal 20pt;
+}

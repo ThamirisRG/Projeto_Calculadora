@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somando Número</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <head>
+        <h1 class="titulo">
+            Calculadora com Javascript
+        </h1>
+    </head>
+    <section class="section">
+        <h2 class="section__titulo">Somando Valores</h2>
+        <input type="number" name="txtn1" id="txtn1" placeholder="S1" class="numero"> +
+        <input type="number" name="txtn2" id="txtn2" placeholder="S2" class="numero">
+        <input type="button" placeholder="Botão" value="Somar" onclick="somar()" class="botao">
+        <div id="res" class="description">Soma</div>
+
+        
+        <h2 class="section__titulo">Subtraindo valores</h2>
+        <input type="number" name="tdtn1" id="tdtn1" placeholder="D1" class="numero"> -
+        <input type="number" name="tdtn2" id="tdtn2" placeholder="D2" class="numero">
+        <input type="button" placeholder="botão" value="Subtrair" onclick="diferenca()" class="botao">
+        <div id="resto" class="description">Diferença</div>
+
+
+        <h2 class="section__titulo">Multiplicando valores</h2>
+        <input type="number" name="tmtn1" id="tmtn1" placeholder="M1" class="numero"> *
+        <input type="number" name="tmtn2" id="tmtn2" placeholder="M2" class="numero">
+        <input type="button" placeholder="botao" value="Multiplicar" onclick="multiplicar()" class="botao">
+        <div id="vezes" class="description">Multiplicação</div>
+
+        <h2 class="section__titulo">Dividindo valores</h2>
+        <input type="number" name="dvtn1" id="dvtn1" placeholder="DV1" class="numero"> / 
+        <input type="number" name="dvtn2" id="dvtn2" placeholder="DV2" class="numero">
+        <input type="button" placeholder="botao" value="Dividir" onclick="dividir()" class="botao" >
+        <div id="divisao" class="description">Divisão</div>
+
+        <h2 class="section__titulo">Modulando valores</h2>
+        <input type="number" name="mdtn1" id="mdtn1" placeholder="MO1" class="numero" > %
+        <input type="number" name="mdtn2" id="mdtn2" placeholder="MO2" class="numero">
+        <input type="button" placeholder="botao" value="Modulo" onclick="modulo()" class="botao">
+        <div id="mode" class="description">Modulação</div>
+
+        <h2 class="section__titulo">Exponenciando valores</h2>
+        <input type="number" name="exptn1" id="exptn1" placeholder="EXP1"  class="numero"> **
+        <input type="number" name="exptn2" id="exptn2" placeholder="EXP2" class="numero">
+        <input type="button" placeholder="botao" value="Exponenciar" onclick="potencia()" class="botao" >
+        <div id="potencia" class="description">Potência</div>
+
+        <h2 class="section__titulo">Saudações</h2>
+        <input type="text" name="saudacao" id="saudacao" placeholder="Digite seu nome!" class="texto">
+        <input type="button" value="Enviar" placeholder="Enviar" onclick="send()" class="enviar">
+        <div id="envio" class="description">Mensagem <br>de saudação</div>
+    </section>
+
+    <script src="index.js">
+       
+    </script>
+    <footer class="footer">
+        <p>&copy;Creat by Thamiris</p>
+    </footer>
+</body>
+</html>
